@@ -1,4 +1,15 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Optiwe Frontend
+
+This project was created with create-react-app but modified to use react-router and contextApi for the global state managment. 
+
+# Important Files
+
+* index.js: main file that bind router-provider-app for all the other files.
+* App.js: imports of rosources and assests and router logic.
+* components/AppContext.jsx: main state managment.
+* requests/api.js: main request handler with axios.
+
+## Create-react-app docs
 
 ## Available Scripts
 
