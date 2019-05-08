@@ -29,7 +29,7 @@ export default class ErrorBoundary extends React.Component {
                     <div className={'errorView__texts'}>
                         Something went wrong loading the app.
                         {process.env.NODE_ENV !== 'production' && (
-                            <div className={"error-info--item__description"} style={{ marginTop: '10px' }}>
+                            <div className={"errorView___description"} style={{ marginTop: '10px' }}>
                                 <details style={{ whiteSpace: 'pre-wrap' }}>
                                     {this.state.errorInfo.componentStack}
                                 </details>
