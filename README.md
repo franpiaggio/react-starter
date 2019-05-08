@@ -9,6 +9,12 @@ This project was created with create-react-app but modified to use react-router 
 * components/AppContext.jsx: main state managment.
 * requests/api.js: main request handler with axios.
 
+# Example files
+
+* views/ContextUseExample1.jsx: context api in methods of a component
+* views/ContextUseExample2.jsx: context api in render method
+* views/ViewWithError.jsx: Error Boundary whne a component crash
+
 ## Create-react-app docs
 
 ## Available Scripts
