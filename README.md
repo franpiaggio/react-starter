@@ -1,4 +1,4 @@
-# Optiwe Frontend
+# Example App
 
 This project was created with create-react-app but modified to use react-router and contextApi for the global state managment. 
 
